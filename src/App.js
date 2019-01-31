@@ -8,6 +8,7 @@ import {
 
 import Header from './components/Header'
 import Cats from './pages/Cats'
+import NewCat from './pages/NewCat'
 
 class App extends Component {
   constructor(props){
