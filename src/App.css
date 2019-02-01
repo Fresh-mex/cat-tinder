@@ -1,3 +1,26 @@
-.Cats {
+#submit {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1 {
   text-align: center;
+  /* font-family: typewriter; */
+  font-style: initial;
+
+}
+.form {
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%
+}
+
+.header {
+  background-color: #3FBFBF;
+  padding-top: 20px;
+  padding-bottom: 20px
+}
+.body {
+  background-color: #728C8C
 }

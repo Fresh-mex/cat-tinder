@@ -9,6 +9,7 @@ import {
 import Header from './components/Header'
 import Cats from './pages/Cats'
 import NewCat from './pages/NewCat'
+import NewDog from './pages/NewDog'
 
 class App extends Component {
   constructor(props){
@@ -36,6 +37,10 @@ class App extends Component {
       ]
     }
   }
+  handleSubmit(newPet){
+    console.log(newPet);
+  }
+
   render() {
     return (
       <div>
@@ -43,6 +48,8 @@ class App extends Component {
         <Router>
           <Switch>
             <Route exact path="/cats" render={(props)=> <Cats cats={this.state.cats}/>} />
+            <Route exact path="/newcat" render={(props)=> <NewCat handleNewCat={this.handleSubmit}/>}/>
+            <Route exact path="/newdog" render={(props)=> <NewDog handleNewDog={this.handleSubmit}/>}/>
           </Switch>
         </Router>
       </div>

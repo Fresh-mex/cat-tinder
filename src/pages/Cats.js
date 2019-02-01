@@ -4,7 +4,6 @@ import {
   Col,
   Row,
   ListGroup,
-  ListGroupItem
 } from 'react-bootstrap'
 import '../App.css';
 

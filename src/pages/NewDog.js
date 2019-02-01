@@ -7,7 +7,7 @@ import {
 } from 'react-bootstrap'
 import '../App.css';
 
-export default class NewCat extends Component {
+export default class NewDog extends Component {
   constructor(props) {
     super(props)
     this.state = {
@@ -27,8 +27,8 @@ export default class NewCat extends Component {
       form: form
     })
   }
-  addCat(){
-    this.props.handleNewCat(this.state.form)
+  addDog(){
+    this.props.handleNewDog(this.state.form)
   }
 
   render()
@@ -36,7 +36,7 @@ export default class NewCat extends Component {
      // console.log(this.state.form);
     return(
       <div>
-      <h1>New Cat</h1>
+      <h1>New Dog</h1>
       <Form className="form">
         <Form.Group as={Row}>
           <Form.Label id="name" column sm="2">Name</Form.Label>
@@ -77,7 +77,7 @@ export default class NewCat extends Component {
         <Button
         variant="primary"
         type="submit" size="sm"
-        id="submit" onClick={this.addCat.bind(this)}>Create Cat Profile
+        id="submit" onClick={this.addDog.bind(this)}>Create Dog Profile
         </Button>
       </div>
     )
