@@ -1,26 +1,97 @@
 #submit {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-}
-h1 {
-  text-align: center;
-  /* font-family: typewriter; */
-  font-style: initial;
-
+  /* display: flex; */
+  margin-left: 7%;
+  /* margin-right: auto; */
+  margin-bottom: 30%
 }
 .form {
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 30%
+  margin: auto;
+  margin-left: 10px;
+  width: 35%;
+  padding-left: 5px;
+  padding-right: 30px;
+  font-size: 20px;
+  font-weight: bold;
 }
-
 .header {
-  background-color: #3FBFBF;
-  padding-top: 20px;
-  padding-bottom: 20px
+  background-color: #E75959;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 70px;
+  padding-left: 30px;
+  font-family: Smar;
+  font-style: rounded;
 }
 .body {
-  background-color: #728C8C
+  /* background-image: url("https://www.parasites.today/wp-content/uploads/2015/10/catanddog.jpg"); */
+  background-size: auto;
+  height: 100%;
+  width: 100%;
+  background-color: #D4D4F0;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+
+.newPet_title {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  font-family: Varela Round;
+  font-weight: bold;
+  margin-left: 90px
+}
+.label {
+  font-size: 20px;
+}
+.new_cat {
+  font-size: 35px;
+  color:  #EC4040;
+  padding-left: 40px;
+  padding-top: 20px;
+  font-weight: bold;
+  font-family: Varela Round
+}
+.new_dog {
+  font-size: 35px;
+  color:  #EC4040;
+  padding-left: 40px;
+  padding-top: 20px;
+  font-weight: bold;
+  font-family: Varela Round
+}
+.title {
+  margin-left: 20px;
+  font-size: 60px;
+  color:  #EC4040;
+  font-weight: bold;
+  font-family: Varela Round
+}
+.navbar {
+  background: white;
+  border-radius: 20px;
+  justify-content: flex-end;
+}
+.catpic {
+  width: 45%;
+  float: right;
+  margin-right: 130px;
+  /* border: 10px black solid; */
+  border-radius: 20px;
+  border-style: outset;
+  margin-top: 80px
+}
+.image {
+  width: 300px;
+  height: 230px;
+
+}
+.profiles {
+  margin-top: 25px
+}
+.felines {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-weight: bold;
+  font-family: Varela Round;
+  color:  #EC4040;
 }

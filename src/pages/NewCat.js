@@ -35,11 +35,12 @@ export default class NewCat extends Component {
    {
      // console.log(this.state.form);
     return(
-      <div>
-      <h1>New Cat</h1>
+      <div className="body" >
+      <img src="http://www.petneeds.us/wp-content/uploads/2018/07/Buying-Your-Very-First-Cat-Know-What-Not-to-Feed-It-Before-Bringing-It-Home.jpg" className="catpic" />
+      <h1 className="newPet_title">About</h1>
       <Form className="form">
         <Form.Group as={Row}>
-          <Form.Label id="name" column sm="2">Name</Form.Label>
+          <Form.Label column sm="2"></Form.Label>
           <Col sm="10">
             <Form.Control
               type="text"
@@ -51,7 +52,7 @@ export default class NewCat extends Component {
         </Form.Group>
 
         <Form.Group as={Row}>
-          <Form.Label id="age" column sm="2">Age</Form.Label>
+          <Form.Label column sm="2"></Form.Label>
           <Col sm="10">
             <Form.Control
               type="text"
@@ -63,7 +64,7 @@ export default class NewCat extends Component {
         </Form.Group>
 
         <Form.Group as={Row}>
-          <Form.Label id="enjoys" column sm="2">Enjoys</Form.Label>
+          <Form.Label column sm="2"></Form.Label>
           <Col sm="10">
             <Form.Control
               type="text"
